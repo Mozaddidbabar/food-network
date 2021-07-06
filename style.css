@@ -1,10 +1,14 @@
 body{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
     line-height: 20px;
+    color: #676767;
+}
+p{
+    line-height: 25px;
 }
 .flexible-container{
     display: flex;
@@ -18,7 +22,6 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding: 2%;
     padding-left: 5%;
 }
 .half-width img{
@@ -43,17 +46,20 @@ h1{
 }
 .half-width-2 p{
     padding-right: 100px;
+    padding-bottom: 80px;
 }
 .half-width-2 img{
     width: 50%;
     padding-left: 25%;
 }
-b{
-    font-weight: lighter;
-}
 .recipy-div{
     text-align: center;
     padding: 0 400px;
+}
+.recipy-div h2{
+    font-size: 35px;
+    color: #676767;
+    font-weight: 700;
 }
 .recipies{
     padding-left: 5%;
@@ -61,14 +67,17 @@ b{
 .recipies div{
     width: 200px;
     height: 300px;
-    box-shadow: 5px 7px 40px gray;
+    box-shadow: 5px 7px 20px gray;
     padding: 60px;
     margin: 20px;
     border-radius: 20px;
 }
+.recipy-div h2{
+    font-weight: bolder;
+}
 #first{
     padding: 20px;
-    height: 350px;
+    height: 370px;
     width: 300px;
 }
 .recipies div img{
@@ -84,7 +93,7 @@ b{
 #one-box{
     width: 80%;
     height: 30%;
-    box-shadow: 5px 7px 40px gray;
+    box-shadow: 5px 7px 30px gray;
     padding: 40px;
     border-radius: 20px;
 }
