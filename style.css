@@ -1,13 +1,101 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    line-height: 20px;
+}
+.flexible-container{
+    display: flex;
+}
+.order-btn{
+    background-image: linear-gradient(orangered, tomato);
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding: 2%;
+    padding-left: 5%;
 }
 .half-width img{
-    width: 50%;
+    width: 80%;
 }
 .orange-color{
     color: salmon;
+}
+.back-img{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 1250px;
+}
+.half-width-2{
+    width: 45%;
+    padding: 2%;
+    padding-left: 5%;
+}
+.half-width-2 h1{
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.half-width-2 p{
+    padding-right: 100px;
+}
+.half-width-2 img{
+    width: 50%;
+    padding-left: 25%;
+}
+b{
+    font-weight: lighter;
+}
+.recipy-div{
+    text-align: center;
+    padding: 0 400px;
+}
+.recipies{
+    padding-left: 5%;
+}
+.recipies div{
+    width: 200px;
+    height: 300px;
+    box-shadow: 5px 7px 40px gray;
+    padding: 60px;
+    margin: 20px;
+    border-radius: 20px;
+}
+#first{
+    padding: 20px;
+    height: 350px;
+    width: 300px;
+}
+.recipies div img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.bonus-item{
+    height: 30%;
+    width: 100%;
+    padding: 50px 90px 40px;
+}
+#one-box{
+    width: 80%;
+    height: 30%;
+    box-shadow: 5px 7px 40px gray;
+    padding: 40px;
+    border-radius: 20px;
+}
+#likes{
+    padding-left: 80px;
+    line-height: 0;
+    height: 30%;
+    width: 50%;
+}
+footer{
+    background-color: #0b0e17; 
+    text-align: center;
+    padding: 20px 80px 50px;
 }
