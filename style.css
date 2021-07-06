@@ -2,6 +2,26 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+.menu{
+    overflow: hidden;
+    margin: 10px;
+}
+  
+.menu a{
+    font-weight: 600;
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 70px;
+}
+  
+.menu a:hover {
+    background-image: linear-gradient(red, tomato);
+    color: black;
+}
 h1{
     font-size: 50px;
     line-height: 20px;
@@ -107,4 +127,5 @@ footer{
     background-color: #0b0e17; 
     text-align: center;
     padding: 20px 80px 50px;
+    border-radius: 20px;
 }
